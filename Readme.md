@@ -9,8 +9,8 @@ By Benjamin Moore
 ## Dependencies
 This code relies on:
 - matplot++ - https://alandefreitas.github.io/matplotplusplus/
-- gnuplot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- https://www.gnuplot.info/ (required by matplot++)
-- eigen3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- https://eigen.tuxfamily.org/index.php?title=Main_Page
+- gnuplot (required by matplot++) - https://www.gnuplot.info/
+- eigen3 - https://eigen.tuxfamily.org/index.php?title=Main_Page
 
 Vcpkg has been used to set these up, however they can be installed independently 
 - vcpkg - https://vcpkg.io/en/
