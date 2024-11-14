@@ -9,8 +9,8 @@ By Benjamin Moore
 ## Dependencies
 This code relies on:
 - matplot++ - https://alandefreitas.github.io/matplotplusplus/
-- gnuplot (required by matplot++) - https://www.gnuplot.info/
-- eigen3 - https://eigen.tuxfamily.org/index.php?title=Main_Page
+- gnuplot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- https://www.gnuplot.info/ (required by matplot++)
+- eigen3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- https://eigen.tuxfamily.org/index.php?title=Main_Page
 
 Vcpkg has been used to set these up, however they can be installed independently 
 - vcpkg - https://vcpkg.io/en/
@@ -24,6 +24,6 @@ The program has been set up using vcpkg and it is recommended that this method i
 If a build other than *Visual Studio 2022* is required, you can change the cmake generator in `CMakePresets.json`. This can be set to any of the cmake generators depending on the build desired.
 
 To compile using vcpkg (This uses the cmake generator that has been chosen):\
-`cmake --preset=default`\
-`mkdir build`\
-`cmake --build build`
+&nbsp;&nbsp;&nbsp;&nbsp;`cmake --preset=default`\
+&nbsp;&nbsp;&nbsp;&nbsp;`mkdir build`\
+&nbsp;&nbsp;&nbsp;&nbsp;`cmake --build build`
