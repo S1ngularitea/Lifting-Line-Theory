@@ -1,0 +1,10 @@
+build/
+.vscode/
+
+*.bat
+*.docx
+*.pdf
+*.xfl
+
+example.cpp
+
