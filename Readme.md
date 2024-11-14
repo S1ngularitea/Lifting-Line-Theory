@@ -27,3 +27,11 @@ To compile using vcpkg (This uses the cmake generator that has been chosen):\
 &nbsp;&nbsp;&nbsp;&nbsp;`cmake --preset=default`\
 &nbsp;&nbsp;&nbsp;&nbsp;`mkdir build`\
 &nbsp;&nbsp;&nbsp;&nbsp;`cmake --build build`
+
+## LLT
+The *LLT* folder can be used as a stand alone (it still needs eigen3 to work).\
+It contains all of the code required to run lifting line theory and can be include into any project through:
+&nbsp;&nbsp;&nbsp;&nbsp;`add_subdirectory(LLT)`\
+&nbsp;&nbsp;&nbsp;&nbsp;`target_link_libraries(${CMAKE_PROJECT_NAME}  LLT)`
+
+LLT sets up a linear system of equations, then uses eigen3 to solve them. For this it uses *fullPivLU* in dense matrix mode.
